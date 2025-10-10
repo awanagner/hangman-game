@@ -1,0 +1,84 @@
+/* Definições de base para todo o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Fundo cinzento claro */
+    color: #333;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    min-height: 100vh; /* Ocupa a altura total da janela de visualização */
+    margin: 0;
+}
+
+/* Estilo do Contentor Principal */
+.container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+}
+
+/* Estilo do Título e do Parágrafo */
+h1 {
+    color: #007bff; /* Azul vibrante */
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Estilo da Área de Jogo (Campo de Input e Botão) */
+.game-area {
+    margin-bottom: 25px;
+}
+
+.guessInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+button {
+    background-color: #28a745; /* Botão verde */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838; /* Verde mais escuro no hover */
+}
+
+/* Estilo da Área de Resultados */
+.result-area p {
+    margin: 5px 0;
+    font-size: 1.1em;
+}
+
+/* Cores específicas para o feedback */
+#lastResult {
+    font-weight: bold;
+}
+.lowOrHi {
+    color: #dc3545; /* Cor de erro/alerta */
+    font-style: italic;
+}
+
+/* Classe que será adicionada pelo JS quando o palpite estiver correto */
+.win {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
