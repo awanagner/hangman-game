@@ -3,6 +3,7 @@
 let randomNumber = Math.floor(Math.random() * 100) + 1;
 //
 /////
+///
 // Referências aos elementos HTML
 const guesses = document.getElementById('guesses');
 const lastResult = document.getElementById('lastResult');
