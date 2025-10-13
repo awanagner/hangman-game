@@ -1,7 +1,7 @@
 // 1. VARIÁVEIS GLOBAIS
 // Gera um número aleatório entre 1 e 100.
 let randomNumber = Math.floor(Math.random() * 100) + 1;
-
+//
 // Referências aos elementos HTML
 const guesses = document.getElementById('guesses');
 const lastResult = document.getElementById('lastResult');
